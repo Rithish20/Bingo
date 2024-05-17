@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    margin-left: 7rem;
+}
+.menuu{
+    margin-right: 7rem;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 23rem;
+}
+.imgagen img{
+    padding-left: 10rem;
+}
+.image-overlay{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 125vh;
+    background-image: linear-gradient(rgba(0,0,0, .7) 50%, rgba(0,0,0, .7)50%);
+    background-size: 3px 3px;
+    z-index: -.999;
+}
+.box{
+    padding: 30px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.box i{
+    font-size: 3rem;
+    color: #07cef1;
+}
+.box:hover{
+    background-color: #ffffff;
+    color: black; 
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 15px; 
+    transform: scale(1);
+}
+.container-one{
+    margin-top: 5rem;
+    margin-bottom:5rem;
+}
+.imagee img{
+    width: 100;
+    padding-left: 12rem;
+}
+.container-three{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.listin ul li i{
+    margin-right: 1rem;
+}
+.listin{
+    text-align: left;
+}
+.listin ul li{
+    padding: 10px;
+}
+.con-one{
+    background:rgba(0,0,0,0.55) url(/Bingo/images/lap.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 7rem;
+}
+.con-two{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.proj i{
+    font-size: 2.3rem;
+    color: #07cef1;
+}
+.project{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.slid{
+    background-color: #0caeca;
+    color:#fff ;
+    text-align: center;
+    padding: 5rem;
+}
+.slid i{
+    font-size: 3.5rem;
+}
+.phott{
+    text-align: center;
+    position: relative;
+    top: -4rem;
+}
+.phott img{
+    border-radius: 50%;
+    width: 8rem;;
+}
+.latest{
+    text-align: center;
+    background-color:rgb(226, 226, 226) ;
+    padding:5rem;
+}
+.last{
+    padding: 5rem;
+}
+.last h5{
+    padding:1rem;
+}
+.last ul{
+    list-style-type: none;
+}
+.last ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.form button{
+    background-color: #0caeca;
+    color: #fff;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 80%;
+}
+
+.form input{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding:10px;
+}
+.form textarea{
+    width: 80%;
+}
+.map iframe{
+  width: 100%;
+  height: 60vh; 
+}
+.map{
+  padding: 3rem 0 0 0;
+}
+.last{
+  padding: 5rem;
+}
+.last h5{
+  padding:1rem;
+}
+.last ul{
+  list-style-type: none;
+}
+.last ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.details ul li i{
+  padding-right: 10px;
+}
+.details ul li{
+  padding: 10px;
+}

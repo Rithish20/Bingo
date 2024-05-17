@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .one{
+            background: url(/Bingo/images/lap-contact.jpg) rgba(0, 0, 0, 0.77);
+            width: 100%;
+            height: 40vh;
+            background-blend-mode: darken;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .con{
+            text-align: center;
+            padding: 5rem 0 0 0 ;
+            color: #fff;
+        }
+        .container-fluid a{
+            color: #fff;
+        }
+        .btttns{
+            padding-left: 3rem; 
+            padding-top: 1rem;
+        }
+        .btttns i{
+            border: 1px solid black;
+            border-radius: 50px;
+            padding: 5px 10px 5px 10px;
+            font-size:2rem;
+            margin: 5px 0 0 15px;
+        }
+        .btttns i:hover{
+            background-color: #0caeca;
+            color: #fff;
+        }
+        .form button{
+            background-color: #0caeca;
+            color: #fff;
+            padding: 7px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 20px;
+            width: 80%;
+        }
+    
+        .form input{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            padding:10px;
+        }
+        .form textarea{
+            width: 80%;
+        }
+        .map iframe{
+          width: 100%;
+          height: 60vh; 
+        }
+        .map{
+          padding: 3rem 0 0 0;
+        }
+        .last{
+          padding: 5rem;
+        }
+        .last h5{
+          padding:1rem;
+        }
+        .last ul{
+          list-style-type: none;
+        }
+        .last ul li a{
+          text-decoration: none;
+          color: #fff;
+        }
+        .details ul li i{
+          padding-right: 10px;
+        }
+        .details ul li{
+          padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<section class="one">
+
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg bg-body-transparent">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">BINGO.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menuu">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        HOMEPAGE
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Homepage</a></li>
+                        <li><a class="dropdown-item" href="#">Onepage</a></li>
+                        <li><a class="dropdown-item" href="#">Onepage2</a></li>
+                        <li><a class="dropdown-item" href="#">SubMenu</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" style="color: #fff;">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PAGES
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">404 Page</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Single Page</a></li>
+                        <li><a class="dropdown-item" href="#">Sub Menu</a></li>
+                      </ul>
+                    </li>
+                </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <div class="con">
+            <h1>Contact Us</h1>
+            <h6><a href="#" style="color: #fff; text-decoration: none;">Home</a> / contact</h6>
+        </div>
+</section> 
+
+           <!------------------------------------------------------------------->
+
+    <div class="container-one">
+      <div class="container">
+        <div class="cont-one text-center" style="padding-top: 5rem; padding-bottom: 2rem;">
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis eveniet<br>
+                maiores ab maxime nam ut numquam molestiae quaerat incidunt?</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="details" >
+                    <h2>Contact Details</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident,<br>
+                        eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo<br>
+                        officiis ratione vel fugiat dicta laboriosam labore adipisci.</p>
+                <ul type="none">
+                    <li><i class="bi bi-house-door-fill"></i>Khaja Road, Bayzid, Chittagong, Bangladesh</li>
+                    <li><i class="bi bi-phone"></i>Phone: +880-31-000-000</li>
+                    <li><i class="bi bi-globe-americas"></i>Fax: +880-31-000-000</li>
+                    <li><i class="bi bi-envelope-fill"></i>Email: hello@meghna.com</li>
+                </ul>  
+                <div class="btttns">
+                    <h6><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i><i class="bi bi-globe2"></i><i class="bi bi-linkedin"></i></h6>
+                </div> 
+                </div>     
+            </div>
+            <div class="col-md-6">
+                <div class="form">
+                    <form id="userdetails">
+                        <input type="text" id="username" placeholder="Your Name"><br>
+                        <input type="text" id="email" placeholder="Your Email"><br>
+                        <input type="text" id="subject" placeholder="Subject"><br>
+                        <input type="text" id="message" placeholder="Message"><br>
+                        <button id="submit" type="submit" value="submit">Submit</button>    
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>   
+  </div> 
+<!---------------------------------------------------------->
+<section class="two">
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d37776.171601099195!2d80.22501266650269!3d12.991258524482188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1711338183464!5m2!1sen!2sin"></iframe>
+  </div>  
+</section>
+
+<!------------------------------------------------------------->
+
+<section class="three">
+  <div class="container-five" style="background-color: #282525;">
+      <div class="last" style="color: #fff;">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>ABOUT US</h5>
+            <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet.
+               Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
+          </div>
+          <div class="col-md-3">
+            <h5>OUR SERVICES</h5>
+            <ul>
+              <li><a href="#">Ui/Ux Design</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>QUICK LINKS</h5>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">404</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>CONNECT WITH US SOCIALLY</h5>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Youtube</a></li>
+              <li><a href="#">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById("userdetails");
+
+  form.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    const Name = document.getElementById("username").value;
+    const Email = document.getElementById("email").value;
+    const Sub = document.getElementById("subject").value;
+    const Text = document.getElementById("message").value;
+
+    if (!Name || !Email) {
+      alert("username, email are important.. You must Fill it.");
+      return;
+    };
+
+  document.write("Username:" + Name);document.write("</br>")
+    document.write("Email:" + Email);document.write("</br>")
+    document.write("Subject:" + Sub);document.write("</br>")
+    document.write("Message:" + Text);document.write("</br>")
+  });
+</script>
+
+    
+</body>
+</html>
